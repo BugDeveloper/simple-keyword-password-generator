@@ -3,13 +3,13 @@
 Serves to generate bruteforce password dictionaries from victim's known info (keywords).
 
 ## Usage
-'''
+```
 from pass_generator import PassGenerator
 
 words = ['admin', 'john', 'moscow']
 words_count = 3
 pass_gen = PassGenerator(words, words_count)
-'''
+```
 
 ## Variables
 
