@@ -9,6 +9,7 @@ from pass_generator import PassGenerator
 words = ['admin', 'john', 'moscow']
 words_count = 3
 pass_gen = PassGenerator(words, words_count)
+print(pass_gen.generate())
 ```
 
 ## Variables
